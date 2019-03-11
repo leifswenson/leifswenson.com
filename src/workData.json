@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "App 1",
+    "tagLine": "The app that is a test",
+    "description": "This is the test description",
+    "category": "App",
+    "date": "March 2017",
+    "projectLink": "#",
+    "codeLink": "#",
+    "image": "https://www.w3schools.com/w3css/img_lights.jpg",
+    "techUsed": ["React.js", "Mongo.DB", "express.js", "Node.js"]
+  }
+]
