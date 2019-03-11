@@ -1,12 +1,6 @@
 import React from "react";
 
 const WorkCard = props => {
-  let techUsedInApp = props.workData.techUsed;
-  let techArr = [];
-  for (let i = 0; i < techUsedInApp.length; i++) {
-    techArr.push(<li key={i}>{techUsedInApp[i]}</li>);
-  }
-
   return (
     <div>
       <h2>Project Title: {props.workData.title}</h2>
@@ -22,7 +16,11 @@ const WorkCard = props => {
       <a href={props.workData.projectLink} target="blank">
         <button>Link to app</button>
       </a>
-      <ul>{techArr}</ul>
+      <ul>
+        {props.workData.techUsed.map((value, index) => {
+          return <li key={index}>{value}</li>;
+        })}
+      </ul>
     </div>
   );
 };
