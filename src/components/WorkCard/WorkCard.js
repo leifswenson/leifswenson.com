@@ -11,6 +11,9 @@ import {
   ListGroupItem
 } from "reactstrap";
 
+const style = {
+  margin: 2
+};
 const WorkCard = props => {
   return (
     <Card>
@@ -30,10 +33,10 @@ const WorkCard = props => {
           })}
         </ListGroup>
         <br />
-        <Button href={props.workData.codeLink} target="blank">
+        <Button style={style} href={props.workData.codeLink} target="blank">
           Repository
         </Button>
-        <Button href={props.workData.projectLink} target="blank">
+        <Button style={style} href={props.workData.projectLink} target="blank">
           Live {props.workData.category}
         </Button>
       </CardBody>

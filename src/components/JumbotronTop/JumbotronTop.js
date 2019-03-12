@@ -1,8 +1,8 @@
-import React from 'react';
-import './JumbotronTop.css'
-import { Jumbotron, Container } from 'reactstrap';
+import React from "react";
+import "./JumbotronTop.css";
+import { Jumbotron, Container } from "reactstrap";
 
-const JumbotronTop = (props) => {
+const JumbotronTop = props => {
   return (
     <div>
       <Jumbotron fluid>
@@ -14,6 +14,5 @@ const JumbotronTop = (props) => {
     </div>
   );
 };
-
 
 export default JumbotronTop;

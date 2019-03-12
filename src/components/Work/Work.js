@@ -11,7 +11,7 @@ class Work extends Component {
   render() {
     return (
       <div>
-        <h1>This is the work</h1>
+        <h1>My Work</h1>
         <WorkContainer>
           {this.state.work.map(item => {
             return <WorkCard key={item.id} workData={item} />;
