@@ -1,14 +1,83 @@
 [
   {
     "id": 1,
-    "title": "App 1",
-    "tagLine": "The app that is a test",
+    "title": "School Source",
+    "tagLine": "Helping schools connect to unused resources",
+    "description": "An app that allows schools to share unused or under used resources with schools that need them.",
+    "category": "App",
+    "date": "May 2018",
+    "projectLink": "https://schoolsource.herokuapp.com/",
+    "codeLink": "https://github.com/leifswenson/school-source",
+    "image": "./assets/images/school.jpg",
+    "techUsed": ["React.js", "Mongo.DB", "express.js", "Node.js"]
+  },
+  {
+    "id": 2,
+    "title": "Athlete Memory Game",
+    "tagLine": "Keep your eye on the athlete",
     "description": "This is the test description",
     "category": "App",
-    "date": "March 2017",
-    "projectLink": "#",
-    "codeLink": "#",
-    "image": "https://www.w3schools.com/w3css/img_lights.jpg",
-    "techUsed": ["React.js", "Mongo.DB", "express.js", "Node.js"]
+    "date": "April 2018",
+    "projectLink": "https://leifswenson.github.io/memory-game/",
+    "codeLink": "https://github.com/leifswenson/memory-game",
+    "image": "./assets/images/tiger_woods.png",
+    "techUsed": ["React.js", "Node.js"]
+  },
+  {
+    "id": 3,
+    "title": "Code Pin",
+    "tagLine": "Keep your eye on the athlete",
+    "description": "Code pin is a javascript application whose intent is to allow users to save and share their most useful code snippets.",
+    "category": "App",
+    "date": "March 2018",
+    "projectLink": "https://codepin.herokuapp.com/",
+    "codeLink": "https://github.com/leifswenson/codePin",
+    "image": "./assets/images/logo_codePin.png",
+    "techUsed": [
+      "express.js",
+      "Node.js",
+      "mySQL",
+      "sequelize",
+      "bootstrap",
+      "passport",
+      "handlebars.js",
+      "highlight.js"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "RememBeer",
+    "tagLine": "Find your favorite breweries",
+    "description": "Can’t remember that sweet brewery you went to last week or last night. Remem-beer is the solution. This app allows user to search and save their favorite breweries.",
+    "category": "App",
+    "date": "January 2018",
+    "projectLink": "https://leifswenson.github.io/remembeer/home.html",
+    "codeLink": "https://github.com/leifswenson/remembeer",
+    "image": "./assets/images/Logo504x361.png",
+    "techUsed": ["firebase", "google maps API", "bootstrap"]
+  },
+  {
+    "id": 5,
+    "title": "Gif Viewer",
+    "tagLine": "Search for your favorite gifs",
+    "description": "An app that allows you to search for your favorite gifs.",
+    "category": "App",
+    "date": "January 2018",
+    "projectLink": "https://leifswenson.github.io/giphy-viewer/index.html",
+    "codeLink": "https://github.com/leifswenson/giphy-viewer",
+    "image": "./assets/images/gif-viewer.png",
+    "techUsed": ["bootstrap", "javascript", "GIPHY API"]
+  },
+  {
+    "id": 6,
+    "title": "Mettle Code",
+    "tagLine": "Consulting",
+    "description": "A site built using gatbsy.js for a consulting company.",
+    "category": "Website",
+    "date": "March 2019",
+    "projectLink": "https://mettlecode.com/",
+    "codeLink": "https://github.com/leifswenson/mettle-code",
+    "image": "",
+    "techUsed": ["React.js", "gatbsy.js", "Node.js", "reactstrap"]
   }
 ]

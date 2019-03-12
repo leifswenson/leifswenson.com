@@ -1,27 +1,43 @@
 import React from "react";
+import {
+  Card,
+  Button,
+  CardImg,
+  CardTitle,
+  CardText,
+  CardSubtitle,
+  CardBody,
+  ListGroup,
+  ListGroupItem
+} from "reactstrap";
 
 const WorkCard = props => {
   return (
-    <div>
-      <h2>Project Title: {props.workData.title}</h2>
-      <h4>Tag line:{props.workData.tagLine}</h4>
-      <p>Description: {props.workData.description}</p>
-      <p>Category: {props.workData.category}</p>
-      <p>Date: {props.workData.date}</p>
-      <img src={props.workData.image} alt="#" />
-      <br />
-      <a href={props.workData.codeLink} target="blank">
-        <button>Link to Code</button>
-      </a>
-      <a href={props.workData.projectLink} target="blank">
-        <button>Link to app</button>
-      </a>
-      <ul>
-        {props.workData.techUsed.map((value, index) => {
-          return <li key={index}>{value}</li>;
-        })}
-      </ul>
-    </div>
+    <Card>
+      <CardImg
+        top
+        width="100%"
+        src={props.workData.image}
+        alt={props.workData.title}
+      />
+      <CardBody>
+        <CardTitle tag="h3">{props.workData.title}</CardTitle>
+        <CardSubtitle>{props.workData.tagLine}</CardSubtitle>
+        <CardText>{props.workData.description}</CardText>
+        <ListGroup>
+          {props.workData.techUsed.map((value, index) => {
+            return <ListGroupItem key={index}>{value}</ListGroupItem>;
+          })}
+        </ListGroup>
+        <br />
+        <Button href={props.workData.codeLink} target="blank">
+          Repository
+        </Button>
+        <Button href={props.workData.projectLink} target="blank">
+          Live {props.workData.category}
+        </Button>
+      </CardBody>
+    </Card>
   );
 };
 
