@@ -1,8 +1,7 @@
 import React from "react";
-import { CardColumns } from "reactstrap";
 
 const WorkContainer = props => {
-  return <CardColumns>{props.children}</CardColumns>;
+  return <div>{props.children}</div>;
 };
 
 export default WorkContainer;

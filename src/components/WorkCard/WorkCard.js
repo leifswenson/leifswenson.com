@@ -1,22 +1,42 @@
 import React from "react";
-import {
-  Card,
-  Button,
-  CardImg,
-  CardTitle,
-  CardText,
-  CardSubtitle,
-  CardBody,
-  ListGroup,
-  ListGroupItem
-} from "reactstrap";
+import "./WorkCard.css";
 
-const style = {
-  margin: 2
-};
 const WorkCard = props => {
   return (
-    <Card>
+    /* <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
+      <div className="col-lg-6">
+        <img className="img-fluid" src={props.workData.image} alt="" />
+      </div>
+      <div className="col-lg-6">
+        <div className="bg-black text-center h-100 project">
+          <div className="d-flex h-100">
+            <div className="project-text w-100 my-auto text-center text-lg-left">
+              <h4 className="text-white">{props.workData.title}</h4>
+              <p className="mb-0 text-white-50">{props.workData.description}</p>
+              <hr className="d-none d-lg-block mb-0 ml-0" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> */
+
+    <div className="row align-items-center no-gutters mb-4 mb-lg-5">
+      <div className="col-xl-8 col-lg-7">
+        <img
+          className="img-fluid mb-3 mb-lg-0"
+          src={props.workData.image}
+          alt=""
+        />
+      </div>
+      <div className="col-xl-4 col-lg-5">
+        <div className="featured-text text-center text-lg-left">
+          <h4>{props.workData.title}</h4>
+          <p className="text-black-50 mb-0">{props.workData.description}</p>
+        </div>
+      </div>
+    </div>
+
+    /* <Card>
       <CardImg
         top
         width="100%"
@@ -40,7 +60,7 @@ const WorkCard = props => {
           Live {props.workData.category}
         </Button>
       </CardBody>
-    </Card>
+    </Card> */
   );
 };
 

@@ -15,7 +15,7 @@
     "id": 2,
     "title": "Athlete Memory Game",
     "tagLine": "Keep your eye on the athlete",
-    "description": "This is the test description",
+    "description": "This is a memory game.  Click on each athlete only once.  Click all 12 only once and you win.",
     "category": "App",
     "date": "April 2018",
     "projectLink": "https://leifswenson.github.io/memory-game/",

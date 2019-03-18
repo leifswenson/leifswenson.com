@@ -1,19 +1,21 @@
 import React, { Component } from "react";
 import "./App.css";
-import NavbarTop from "./components/NavbarTop/NavbarTop";
+import Navigation from "./components/Navigation/Navigation";
 import Footer from "./components/Footer/Footer";
 import About from "./components/About/About";
 import Work from "./components/Work/Work";
-import JumbotronTop from "./components/JumbotronTop/JumbotronTop";
+import Header from "./components/Header/Header";
+import Contact from "./components/Contact/Contact";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <NavbarTop />
-        <JumbotronTop />
+        <Navigation />
+        <Header />
         <About />
         <Work />
+        <Contact />
         <Footer />
       </div>
     );
