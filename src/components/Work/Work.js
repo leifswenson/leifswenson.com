@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import WorkContainer from "../WorkContainer/WorkContainer";
 import workData from "../../workData.json";
 import WorkCard from "../WorkCard/WorkCard";
+import { Container } from "reactstrap";
 import "./Work.css";
 
 class Work extends Component {
@@ -12,14 +13,14 @@ class Work extends Component {
   render() {
     return (
       <section id="work" className="projects-section bg-light">
-        <div className="container">
-          <h3>My Wrok</h3>
+        <h3>My Work</h3>
+        <Container>
           <WorkContainer>
             {this.state.work.map(item => {
               return <WorkCard key={item.id} workData={item} />;
             })}
           </WorkContainer>
-        </div>
+        </Container>
       </section>
     );
   }

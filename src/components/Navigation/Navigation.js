@@ -66,7 +66,6 @@ class Navigation extends React.Component {
 
       <Navbar
         color="light"
-        light
         expand="md"
         className="navbar navbar-expand-lg navbar-light fixed-top"
       >

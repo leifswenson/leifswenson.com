@@ -67,17 +67,5 @@
     "codeLink": "https://github.com/leifswenson/giphy-viewer",
     "image": "./assets/images/gif-viewer.png",
     "techUsed": ["bootstrap", "javascript", "GIPHY API"]
-  },
-  {
-    "id": 6,
-    "title": "Mettle Code",
-    "tagLine": "Consulting",
-    "description": "A site built using gatbsy.js for a consulting company.",
-    "category": "Website",
-    "date": "March 2019",
-    "projectLink": "https://mettlecode.com/",
-    "codeLink": "https://github.com/leifswenson/mettle-code",
-    "image": "",
-    "techUsed": ["React.js", "gatbsy.js", "Node.js", "reactstrap"]
   }
 ]
