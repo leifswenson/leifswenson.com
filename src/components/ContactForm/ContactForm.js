@@ -7,7 +7,6 @@ class ContactForm extends React.Component {
       <div id="contact">
         <Form className="form-section">
           <FormGroup>
-            <Label for="email">email</Label>
             <Input
               type="email"
               name="email"
@@ -16,7 +15,6 @@ class ContactForm extends React.Component {
             />
           </FormGroup>
           <FormGroup>
-            <Label for="title">Title</Label>
             <Input
               type="title"
               name="title"
@@ -26,9 +24,6 @@ class ContactForm extends React.Component {
           </FormGroup>
 
           <FormGroup>
-            <Label for="exampleText" color="muted">
-              Message
-            </Label>
             <Input
               type="textarea"
               name="message"

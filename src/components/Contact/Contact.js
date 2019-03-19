@@ -9,8 +9,8 @@ const Contact = () => {
       <Container>
         <ContactForm />
       </Container>
-      <div className="container">
-        <div className="social d-flex justify-content-center">
+      <Container>
+        <div className="social d-flex justify-content-center pb-5">
           <a
             href="https://www.linkedin.com/in/leif-swenson"
             className="mx-2"
@@ -26,7 +26,7 @@ const Contact = () => {
             <i className="fab fa-github" />
           </a>
         </div>
-      </div>
+      </Container>
     </section>
   );
 };
