@@ -16,14 +16,14 @@ const Header = props => {
               className="mx-3"
               target="blank"
             >
-              <i className="fab fa-linkedin-in" />
+              <i className="fab fa-linkedin-in fa-2x" />
             </a>
             <a
               href="https://github.com/leifswenson"
               className="mx-3"
               target="blank"
             >
-              <i className="fab fa-github" />
+              <i className="fab fa-github fa-2x" />
             </a>
           </div>
           <a href="#contact" className="btn btn-primary js-scroll-trigger">

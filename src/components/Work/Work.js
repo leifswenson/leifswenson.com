@@ -13,7 +13,11 @@ class Work extends Component {
   render() {
     return (
       <section id="work" className="projects-section bg-light">
-        <h3>My Work</h3>
+        <div className="row">
+          <div className="col mx-auto">
+            <h2 className="work-heading text-black">My Work</h2>
+          </div>
+        </div>
         <Container>
           <WorkContainer>
             {this.state.work.map(item => {

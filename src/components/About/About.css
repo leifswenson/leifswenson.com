@@ -1,6 +1,6 @@
 .about-section {
   padding-top: 10rem;
-  background: -webkit-gradient(
+  background: linear-gradient(
     linear,
     left top,
     left bottom,
@@ -17,4 +17,10 @@
 }
 .about-section p {
   margin-bottom: 5rem;
+}
+
+.my-picture {
+  max-height: 200px;
+  border-radius: 10%;
+  box-shadow: 10px 10px 70px 5px #888888;
 }

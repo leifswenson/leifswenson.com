@@ -6,6 +6,7 @@ import { Container } from "reactstrap";
 const Contact = () => {
   return (
     <section className="contact-section bg-black">
+      <h2 className="text-white mb-4 text-center pb-4">Contact Me</h2>
       <Container>
         <ContactForm />
       </Container>

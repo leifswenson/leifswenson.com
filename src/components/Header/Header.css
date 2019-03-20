@@ -4,7 +4,7 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: -webkit-gradient(
+  background: linear-gradient(
     linear,
     left top,
     left bottom,
@@ -12,7 +12,7 @@
     color-stop(75%, rgba(22, 22, 22, 0.5)),
     to(#161616)
   );
-  /* url(./boat-clouds.jpg);
+  background-image: url(./boat-clouds.jpg);
   background: linear-gradient(
       to bottom,
       rgba(22, 22, 22, 0.1) 0,
@@ -23,7 +23,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: cover;  */
+  background-size: cover;
 }
 .masthead h1 {
   font-family: "Varela Round";
@@ -62,7 +62,9 @@
     font-size: 1.25rem;
   }
 }
-.btn {
+
+/* Button */
+.masthead .btn {
   -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
@@ -72,16 +74,35 @@
   letter-spacing: 0.15rem;
   border: 0;
 }
-.btn-primary {
-  background-color: #64a19d;
+.masthead .btn-primary {
+  background-color: #838585;
 }
-.btn-primary:hover {
-  background-color: #4f837f;
+.masthead .btn-primary:hover {
+  background-color: #2f3030;
 }
-.btn-primary:focus {
+/* .btn-primary:focus {
   background-color: #4f837f;
   color: #fff;
 }
 .btn-primary:active {
   background-color: #467370 !important;
+} */
+
+/* Social Icons */
+.social {
+  margin-top: 5rem;
+}
+.social a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 100%;
+  line-height: 3rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+.social a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+.social a:active {
+  color: #fff;
 }
