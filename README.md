@@ -1,1 +1,1 @@
-[leifswenson.com](https://leifswenson.com).
+[leifswenson.com](https://leifswenson.com)
