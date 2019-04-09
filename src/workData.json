@@ -67,5 +67,17 @@
     "codeLink": "https://github.com/leifswenson/giphy-viewer",
     "image": "./assets/images/gif-viewer.png",
     "techUsed": ["bootstrap", "javascript", "GIPHY API"]
+  },
+  {
+    "id": 6,
+    "title": "Movie Finder",
+    "tagLine": "Search for your favorite movies using the omdb dadabase.",
+    "description": "An app that allows you to search for movies.",
+    "category": "App",
+    "date": "April 2019",
+    "projectLink": "https://leifswenson.github.io/giphy-viewer/index.html",
+    "codeLink": "https://react-movie-search-ls.netlify.com/",
+    "image": "./assets/images/caddyshack.jpg",
+    "techUsed": ["react", "API", "bootstrap", "javascript", "node"]
   }
 ]
