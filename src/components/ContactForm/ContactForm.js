@@ -6,7 +6,14 @@ class ContactForm extends React.Component {
   render() {
     return (
       <div id="contact">
-        <Form className="form-section">
+        <Form
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          className="form-section"
+          data-netlify-honeypot="bot-field"
+          data-netlify-recaptcha="true"
+        >
           <FormGroup>
             <Input
               type="email"
@@ -31,6 +38,9 @@ class ContactForm extends React.Component {
               id="message"
               placeholder="message"
             />
+          </FormGroup>
+          <FormGroup>
+            <Input data-netlify-recaptcha="true" />
           </FormGroup>
 
           <Button className="btn btn-primary mx-auto">Submit</Button>
