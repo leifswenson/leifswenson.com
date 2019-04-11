@@ -39,9 +39,8 @@ class ContactForm extends React.Component {
               placeholder="message"
             />
           </FormGroup>
-          <FormGroup>
-            <Input data-netlify-recaptcha="true" />
-          </FormGroup>
+
+          <div data-netlify-recaptcha="true" />
 
           <Button className="btn btn-primary mx-auto">Submit</Button>
         </Form>
