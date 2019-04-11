@@ -12,7 +12,6 @@ class ContactForm extends React.Component {
           data-netlify="true"
           className="form-section"
           data-netlify-honeypot="bot-field"
-          data-netlify-recaptcha="true"
         >
           <FormGroup>
             <Input
@@ -39,8 +38,6 @@ class ContactForm extends React.Component {
               placeholder="message"
             />
           </FormGroup>
-
-          <div data-netlify-recaptcha="true" />
 
           <Button className="btn btn-primary mx-auto">Submit</Button>
         </Form>
