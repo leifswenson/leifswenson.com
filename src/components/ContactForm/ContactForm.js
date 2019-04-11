@@ -7,12 +7,12 @@ class ContactForm extends React.Component {
     return (
       <div id="contact">
         <Form
-          name="contact"
-          method="POST"
+          action="POST"
           data-netlify="true"
           className="form-section"
           data-netlify-honeypot="bot-field"
         >
+          <Input type="hidden" name="bot-field" />
           <FormGroup>
             <Input
               type="email"
