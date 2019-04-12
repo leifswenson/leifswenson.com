@@ -79,5 +79,17 @@
     "codeLink": "https://react-movie-search-ls.netlify.com/",
     "image": "./assets/images/caddyshack.jpg",
     "techUsed": ["react", "API", "bootstrap", "javascript", "node"]
+  },
+  {
+    "id": 7,
+    "title": "Liri Node App",
+    "tagLine": "Command line Siri clone.",
+    "description": "Use Liri to search twitter, Spotify or for movies via the IMDB database.",
+    "category": "App",
+    "date": "February 2018",
+    "projectLink": "https://github.com/leifswenson/liri-node-app",
+    "codeLink": "https://github.com/leifswenson/liri-node-app",
+    "image": "./assets/images/sound-waves.png",
+    "techUsed": ["API", "javascript", "node", "command line"]
   }
 ]
