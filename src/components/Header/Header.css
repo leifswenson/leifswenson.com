@@ -12,14 +12,14 @@
     color-stop(75%, rgba(22, 22, 22, 0.5)),
     to(#161616)
   );
-  background-image: url(./boat-clouds.jpg);
+  background-image: url(./banner-image.jpg);
   background: linear-gradient(
       to bottom,
       rgba(22, 22, 22, 0.1) 0,
       rgba(22, 22, 22, 0.5) 75%,
       #161616 100%
     ),
-    url(./boat-clouds.jpg);
+    url(./banner-image.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
