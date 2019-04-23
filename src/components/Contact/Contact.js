@@ -1,15 +1,15 @@
 import React from "react";
 import "./Contact.css";
-import ContactForm from "../ContactForm/ContactForm";
+//import ContactForm from "../ContactForm/ContactForm";
 import { Container } from "reactstrap";
 
 const Contact = () => {
   return (
-    <section className="contact-section bg-black">
-      <h2 className="text-white mb-4 text-center pb-4">Contact Me</h2>
-      <Container>
+    <section className="contact-section">
+      <h2 className="text-white text-center">Contact Me</h2>
+      {/* <Container>
         <ContactForm />
-      </Container>
+      </Container> */}
       <Container>
         <div className="social d-flex justify-content-center pb-5">
           <a
