@@ -91,5 +91,17 @@
     "codeLink": "https://github.com/leifswenson/liri-node-app",
     "image": "./assets/images/sound-waves.png",
     "techUsed": ["API", "javascript", "node", "command line"]
+  },
+  {
+    "id": 8,
+    "title": "Streams App",
+    "tagLine": "A React Redux CRUD app that allows users to live stream content",
+    "description": "A React Redux CRUD app that allows users to live stream content",
+    "category": "App",
+    "date": "August 2019",
+    "projectLink": "",
+    "codeLink": "https://github.com/leifswenson/streams",
+    "image": "./assets/images/sound-waves.png",
+    "techUsed": ["React.js", "Redux", "API", "javascript", "node"]
   }
 ]
