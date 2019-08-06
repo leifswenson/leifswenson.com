@@ -101,7 +101,7 @@
     "date": "August 2019",
     "projectLink": "",
     "codeLink": "https://github.com/leifswenson/streams",
-    "image": "./assets/images/sound-waves.png",
+    "image": "./assets/images/streams.png",
     "techUsed": ["React.js", "Redux", "API", "javascript", "node"]
   }
 ]
