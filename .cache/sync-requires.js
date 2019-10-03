@@ -8,6 +8,9 @@ exports.components = {
   "component---cache-dev-404-page-js": hot(preferDefault(require("/Users/leifswenson/Desktop/leifswenson.com/.cache/dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(require("/Users/leifswenson/Desktop/leifswenson.com/src/pages/404.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/Users/leifswenson/Desktop/leifswenson.com/src/pages/index.js"))),
-  "component---src-pages-page-2-js": hot(preferDefault(require("/Users/leifswenson/Desktop/leifswenson.com/src/pages/page-2.js")))
+  "component---src-pages-page-2-js": hot(preferDefault(require("/Users/leifswenson/Desktop/leifswenson.com/src/pages/page-2.js"))),
+  "component---src-pages-my-work-js": hot(preferDefault(require("/Users/leifswenson/Desktop/leifswenson.com/src/pages/my-work.js"))),
+  "component---src-pages-about-js": hot(preferDefault(require("/Users/leifswenson/Desktop/leifswenson.com/src/pages/about.js"))),
+  "component---src-pages-contact-js": hot(preferDefault(require("/Users/leifswenson/Desktop/leifswenson.com/src/pages/contact.js")))
 }
 
