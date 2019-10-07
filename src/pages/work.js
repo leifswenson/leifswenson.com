@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import Layout from "../components/Layout";
 import SEO from "../components/SEO";
 
-import workData from "../components/workData.json";
+import workData from "../data/workData.json";
 import Project from "../components/Project";
 
 class Work extends Component {

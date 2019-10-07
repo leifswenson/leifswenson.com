@@ -4,21 +4,17 @@ import Layout from "../components/Layout";
 import SEO from "../components/SEO";
 
 import LeifPhoto from "../images/leif-swenson.jpg";
-import LeifLogo from "../images/gatsby-astronaut.png";
+
 const IndexPage = () => (
   <Layout>
     <SEO title='Home' />
     <section>
       <div className='container'>
         <div className='row'>
-          <div className='col-lg-6 col-md-6'>
+          <div className='col-lg-12'>
             <h3>I'm</h3>
             <h1>Leif Swenson</h1>
             <p>a software developer</p>
-            <button>Contact</button>
-          </div>
-          <div className='col-lg-6 col-md-5'>
-            <img src={LeifPhoto} alt='Leif Swenson' />
           </div>
         </div>
       </div>
@@ -28,7 +24,7 @@ const IndexPage = () => (
       <div className='container'>
         <div className='row'>
           <div className='col-lg-6'>
-            <img src={LeifLogo} alt='' />
+            <img src={LeifPhoto} alt='Leif Swenson' />
           </div>
           <div className='col-lg-6'>
             <h6>About Me</h6>
@@ -44,18 +40,22 @@ const IndexPage = () => (
 
     <section>
       <div className='container'>
-        <h2>Skills & Tools</h2>
+        <h2>What can I do?</h2>
         <div className='row'>
           <div className='col-lg-12'>
             <h4>Skills</h4>
             <ul>
-              <li>HTML</li>
-              <li>CSS</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
               <li>JavaScript</li>
               <li>React.js</li>
-              <li>node.js</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>MongoDB</li>
+              <li>SQL</li>
               <li>WordPress</li>
               <li>SCSS</li>
+              <li>Bootstrap</li>
             </ul>
           </div>
         </div>
@@ -65,8 +65,9 @@ const IndexPage = () => (
             <ul>
               <li>GitHub</li>
               <li>Heroku</li>
-              <li>netlify</li>
+              <li>Netlify</li>
               <li>Google Analytics</li>
+              <li>Chrome Dev Tools</li>
             </ul>
           </div>
         </div>
