@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "School Source",
+    "category": "MERN Stack Web App",
+    "tagLine": "Helping schools connect to unused resources",
+    "description": "An app that allows schools to share unused or under used resources with schools that need them.",
+    "image": "../images/project-images/school-source-images.jpg",
+    "link": "https://github.com/leifswenson/school-source",
+    "backgroundColor": "#2da779",
+    "textColor": "#FAFAFA",
+    "buttonColor": "#6cabdb"
+  },
+  {
+    "id": 2,
+    "title": "Athlete Memory Game",
+    "category": "React App",
+    "tagLine": "Keep your eye on the athlete",
+    "description": "This is a memory game.  Click on each athlete only once.  Click all 12 only once and you win.",
+    "image": "../images/project-images/tiger_woods.png",
+    "link": "https://leifswenson.github.io/memory-game/",
+    "backgroundColor": "#6cabdb",
+    "textColor": "#FAFAFA",
+    "buttonColor": "#6cabdb"
+  }
+]

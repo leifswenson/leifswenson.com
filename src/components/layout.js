@@ -5,6 +5,7 @@ import { useStaticQuery, graphql } from "gatsby";
 import SiteNav from "./SiteNav";
 import Footer from "./Footer";
 
+import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/layout.scss";
 
 const Layout = ({ children }) => {
@@ -19,13 +20,11 @@ const Layout = ({ children }) => {
   `);
 
   return (
-    <>
+    <div className='container-fluid' style={{ margin: 0, padding: 0 }}>
       <SiteNav siteTitle={data.site.siteMetadata.title} />
-      <div>
-        <main>{children}</main>
-        <Footer />
-      </div>
-    </>
+      <main>{children}</main>
+      <Footer />
+    </div>
   );
 };
 

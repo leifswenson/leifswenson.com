@@ -3,9 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer>
-      © {new Date().getFullYear()}, Built with
-      {` `}
-      <a href='https://www.gatsbyjs.org'>Gatsby</a>
+      <div>© {new Date().getFullYear()} Leif Swenson. All rights reserved.</div>
     </footer>
   );
 };
