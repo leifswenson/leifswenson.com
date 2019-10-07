@@ -200,7 +200,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -619,17 +619,4 @@ pre tt:after {
   html {
     font-size: 100%;
   }
-}
-
-/*--------------------------------------------------------------
-# Site Navigation
---------------------------------------------------------------*/
-
-ul {
-  display: flex;
-  list-style-type: none;
-}
-
-li {
-  padding: 5px 25px;
 }

@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 
-import Layout from "../components/Layout";
+import Layout from "../components/Layout/Layout";
 import SEO from "../components/SEO";
 
 import workData from "../data/workData.json";
-import Project from "../components/Project";
+import Project from "../components/Project/Project";
 
 class Work extends Component {
   state = {
