@@ -1,0 +1,39 @@
+.footer {
+  background-color: #293036;
+  color: #fafafa;
+}
+
+.container {
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.content {
+  text-align: center;
+}
+
+.social {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.socialList {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.socialItem {
+  padding: 5px;
+}
+
+.socialLink {
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.socialLink:hover {
+  color: #fafafa;
+  text-decoration: none;
+}
