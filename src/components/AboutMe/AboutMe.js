@@ -9,8 +9,12 @@ const AboutMe = () => {
     <section>
       <div className={aboutMeStyles.container}>
         <div className='row'>
-          <div className='col-lg-6'>
-            <img src={LeifPhoto} alt='Leif Swenson' />
+          <div className={`${aboutMeStyles.imageContainer} col-lg-6`}>
+            <img
+              className={aboutMeStyles.image}
+              src={LeifPhoto}
+              alt='Leif Swenson'
+            />
           </div>
           <div className='col-lg-6'>
             <h6>About Me</h6>

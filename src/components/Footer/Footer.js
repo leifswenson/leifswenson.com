@@ -2,6 +2,9 @@ import React from "react";
 
 import footerStyles from "./footer.module.scss";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons";
+
 const Footer = () => {
   return (
     <footer className={footerStyles.footer}>
@@ -18,7 +21,7 @@ const Footer = () => {
                 href='https://www.linkedin.com/in/leif-swenson/'
                 target='blank'
               >
-                LinkedIn
+                <FontAwesomeIcon icon={faLinkedin} size='2x' />
               </a>
             </li>
             <li className={footerStyles.socialItem}>
@@ -27,7 +30,7 @@ const Footer = () => {
                 href='https://github.com/leifswenson'
                 target='blank'
               >
-                GitHub
+                <FontAwesomeIcon icon={faGithubSquare} size='2x' />
               </a>
             </li>
           </ul>
