@@ -9,7 +9,7 @@
     "link": "https://github.com/leifswenson/school-source",
     "backgroundColor": "#2da779",
     "textColor": "#FAFAFA",
-    "buttonColor": "#6cabdb"
+    "buttonColor": "#293036"
   },
   {
     "id": 2,
@@ -21,6 +21,6 @@
     "link": "https://leifswenson.github.io/memory-game/",
     "backgroundColor": "#6cabdb",
     "textColor": "#FAFAFA",
-    "buttonColor": "#6cabdb"
+    "buttonColor": "#293036"
   }
 ]
