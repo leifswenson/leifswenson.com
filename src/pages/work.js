@@ -15,14 +15,14 @@ class Work extends Component {
     return (
       <Layout>
         <SEO title='Work' />
-        <h1>Work</h1>
+        {/* <h1>Work</h1>
         <section>
           <h2>Stuff I'v done.</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
             assumenda.
           </p>
-        </section>
+        </section> */}
         {this.state.work.map(item => {
           return <Project key={item.id} workData={item} />;
         })}

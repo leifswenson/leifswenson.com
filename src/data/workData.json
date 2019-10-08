@@ -22,5 +22,17 @@
     "backgroundColor": "#6cabdb",
     "textColor": "#FAFAFA",
     "buttonColor": "#293036"
+  },
+  {
+    "id": 3,
+    "title": "Code Pin",
+    "category": "Web App",
+    "tagLine": "Save your best code for later.",
+    "description": "Code pin is a javascript application whose intent is to allow users to save and share their most useful code snippets.",
+    "image": "logo_codePin.png",
+    "link": "https://github.com/leifswenson/codePin",
+    "backgroundColor": "#66717b",
+    "textColor": "#FAFAFA",
+    "buttonColor": "6cabdb"
   }
 ]
