@@ -7,7 +7,7 @@ import Footer from "../Footer/Footer";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../../styles/main.scss";
-import "./layout.module.scss";
+import layoutStyles from "./layout.module.scss";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -21,9 +21,11 @@ const Layout = ({ children }) => {
   `);
 
   return (
-    <div className='container-fluid' style={{ margin: 0, padding: 0 }}>
+    <div className={layoutStyles.siteContainer}>
       <SiteNav siteTitle={data.site.siteMetadata.title} />
-      <main>{children}</main>
+      <div className={layoutStyles.content}>
+        <main>{children}</main>
+      </div>
       <Footer />
     </div>
   );

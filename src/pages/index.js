@@ -2,23 +2,15 @@ import React from "react";
 
 import Layout from "../components/Layout/Layout";
 import SEO from "../components/SEO";
+import Header from "../components/Header/Header";
 
 import LeifPhoto from "../images/leif-swenson.jpg";
 
 const IndexPage = () => (
   <Layout>
     <SEO title='Home' />
-    <section>
-      <div className='container'>
-        <div className='row'>
-          <div className='col-lg-12'>
-            <h3>I'm</h3>
-            <h1>Leif Swenson</h1>
-            <p>a software developer</p>
-          </div>
-        </div>
-      </div>
-    </section>
+
+    <Header />
 
     <section>
       <div className='container'>
@@ -28,7 +20,7 @@ const IndexPage = () => (
           </div>
           <div className='col-lg-6'>
             <h6>About Me</h6>
-            <p>I am a software developer based in Minnetonka Minnesota.</p>
+            <p>I am a software developer based in Minnesota.</p>
             <p>
               I have a passion for building intuitive, pragmatic applications
               with a focus on a clean minimal design.{" "}

@@ -4,10 +4,12 @@ import PropTypes from "prop-types";
 
 import { Nav, Navbar } from "react-bootstrap";
 
+import navStyles from "./siteNav.module.scss";
+
 const SiteNav = ({ siteTitle }) => {
   return (
     <nav id='nav-menu-container'>
-      <Navbar bg='light' expand='lg'>
+      <Navbar className='fixed-top' bg='light' expand='lg'>
         <Navbar.Brand href='#home'>
           <Link to='/'>{siteTitle}</Link>
         </Navbar.Brand>
