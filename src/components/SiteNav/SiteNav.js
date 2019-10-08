@@ -9,24 +9,50 @@ import navStyles from "./siteNav.module.scss";
 const SiteNav = ({ siteTitle }) => {
   return (
     <nav id='nav-menu-container'>
-      <Navbar className='fixed-top' bg='light' expand='lg'>
+      <Navbar className='fixed-top' bg='light' expand='md'>
         <Navbar.Brand href='#home'>
-          <Link to='/'>{siteTitle}</Link>
+          <Link className={navStyles.link} to='/'>
+            {siteTitle}
+          </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
-          <Nav className='mr-auto'>
+          <Nav className='ml-auto'>
             <Nav.Link href='home'>
-              <Link to='/'>Home</Link>
+              <Link
+                className={navStyles.link}
+                activeClassName={navStyles.activeLink}
+                to='/'
+              >
+                Home
+              </Link>
             </Nav.Link>
             <Nav.Link href='about'>
-              <Link to='/about'>About</Link>
+              <Link
+                className={navStyles.link}
+                activeClassName={navStyles.activeLink}
+                to='/about'
+              >
+                About
+              </Link>
             </Nav.Link>
             <Nav.Link href='work'>
-              <Link to='/work'>Work</Link>
+              <Link
+                className={navStyles.link}
+                activeClassName={navStyles.activeLink}
+                to='/work'
+              >
+                Work
+              </Link>
             </Nav.Link>
             <Nav.Link href='contact'>
-              <Link to='/contact'>Contact</Link>
+              <Link
+                className={navStyles.link}
+                activeClassName={navStyles.activeLink}
+                to='/contact'
+              >
+                Contact
+              </Link>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
