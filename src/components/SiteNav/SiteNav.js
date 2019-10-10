@@ -14,7 +14,7 @@ const SiteNav = ({ siteTitle }) => {
       <Navbar
         className={`fixed-top ${navStyles.container}`}
         bg='light'
-        expand='sm'
+        expand='lg'
       >
         <Navbar.Brand href='#home'>
           <Link className={navStyles.link} to='/'>
@@ -43,6 +43,7 @@ const SiteNav = ({ siteTitle }) => {
                 Work
               </Link>
             </Nav.Link>
+
             <Nav.Link href='contact'>
               <Link
                 className={navStyles.link}

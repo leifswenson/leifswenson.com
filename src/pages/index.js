@@ -4,7 +4,6 @@ import Layout from "../components/Layout/Layout";
 import SEO from "../components/SEO";
 import Header from "../components/Header/Header";
 
-import LeifPhoto from "../images/leif-swenson.jpg";
 import AboutMe from "../components/AboutMe/AboutMe";
 import Skills from "../components/Skills/Skills";
 
