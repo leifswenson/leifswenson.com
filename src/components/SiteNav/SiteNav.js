@@ -3,6 +3,8 @@ import { Link } from "gatsby";
 import PropTypes from "prop-types";
 
 import { Nav, Navbar } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 
 import navStyles from "./siteNav.module.scss";
 
@@ -27,7 +29,7 @@ const SiteNav = ({ siteTitle }) => {
                 Home
               </Link>
             </Nav.Link>
-            <Nav.Link href='about'>
+            {/* <Nav.Link href='about'>
               <Link
                 className={navStyles.link}
                 activeClassName={navStyles.activeLink}
@@ -35,7 +37,7 @@ const SiteNav = ({ siteTitle }) => {
               >
                 About
               </Link>
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link href='work'>
               <Link
                 className={navStyles.link}
@@ -54,6 +56,27 @@ const SiteNav = ({ siteTitle }) => {
                 Contact
               </Link>
             </Nav.Link>
+
+            <Nav>
+              <Nav.Link href='contact'>
+                <a
+                  className={`${navStyles.socialLink} ${navStyles.link}`}
+                  href='https://github.com/leifswenson'
+                  target='blank'
+                >
+                  <FontAwesomeIcon icon={faGithubSquare} size='2x' />
+                </a>
+              </Nav.Link>
+              <Nav.Link href='contact'>
+                <a
+                  className={`${navStyles.socialLink} ${navStyles.link}`}
+                  href='https://www.linkedin.com/in/leif-swenson/'
+                  target='blank'
+                >
+                  <FontAwesomeIcon icon={faLinkedin} size='2x' />
+                </a>
+              </Nav.Link>
+            </Nav>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
