@@ -34,5 +34,17 @@
     "backgroundColor": "#66717b",
     "textColor": "#FAFAFA",
     "buttonColor": "6cabdb"
+  },
+  {
+    "id": 4,
+    "title": "RememBeer",
+    "category": "React App",
+    "tagLine": "Find your favorite breweries",
+    "description": "Can’t remember that sweet brewery you went to last week or last night. Remem-beer is the solution. This app allows user to search and save their favorite breweries.",
+    "image": "remembeerLogo.png",
+    "link": "https://github.com/leifswenson/remembeer",
+    "backgroundColor": "#FAFAFA",
+    "textColor": "#66717b",
+    "buttonColor": "#6cabdb"
   }
 ]
