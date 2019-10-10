@@ -10,8 +10,12 @@ import navStyles from "./siteNav.module.scss";
 
 const SiteNav = ({ siteTitle }) => {
   return (
-    <nav id='nav-menu-container'>
-      <Navbar className='fixed-top' bg='light' expand='md'>
+    <nav>
+      <Navbar
+        className={`fixed-top ${navStyles.container}`}
+        bg='light'
+        expand='sm'
+      >
         <Navbar.Brand href='#home'>
           <Link className={navStyles.link} to='/'>
             {siteTitle}
@@ -29,15 +33,7 @@ const SiteNav = ({ siteTitle }) => {
                 Home
               </Link>
             </Nav.Link>
-            {/* <Nav.Link href='about'>
-              <Link
-                className={navStyles.link}
-                activeClassName={navStyles.activeLink}
-                to='/about'
-              >
-                About
-              </Link>
-            </Nav.Link> */}
+
             <Nav.Link href='work'>
               <Link
                 className={navStyles.link}
@@ -57,8 +53,8 @@ const SiteNav = ({ siteTitle }) => {
               </Link>
             </Nav.Link>
 
-            <Nav>
-              <Nav.Link href='contact'>
+            <Nav className='ml-5'>
+              <Nav.Link href='linkedin'>
                 <a
                   className={`${navStyles.socialLink} ${navStyles.link}`}
                   href='https://github.com/leifswenson'
@@ -67,7 +63,7 @@ const SiteNav = ({ siteTitle }) => {
                   <FontAwesomeIcon icon={faGithubSquare} size='2x' />
                 </a>
               </Nav.Link>
-              <Nav.Link href='contact'>
+              <Nav.Link href='github'>
                 <a
                   className={`${navStyles.socialLink} ${navStyles.link}`}
                   href='https://www.linkedin.com/in/leif-swenson/'

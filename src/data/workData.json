@@ -14,7 +14,7 @@
   },
   {
     "id": 2,
-    "title": "Athlete Memory Game",
+    "title": "Sports Memory",
     "category": "React App",
     "tagLine": "Keep your eye on the athlete",
     "description": "This is a memory game.  Click on each athlete only once.  Click all 12 only once and you win.",
@@ -45,7 +45,7 @@
     ],
     "backgroundColor": "#66717b",
     "textColor": "#FAFAFA",
-    "buttonColor": "6cabdb"
+    "buttonColor": "#293036"
   },
   {
     "id": 4,
@@ -84,7 +84,7 @@
     "techUsed": ["React.js", "Redux", "API", "javascript", "Node.js"],
     "backgroundColor": "#66717b",
     "textColor": "#FAFAFA",
-    "buttonColor": "6cabdb"
+    "buttonColor": "#293036"
   },
   {
     "id": 7,
@@ -123,7 +123,7 @@
     "techUsed": ["WordPress", "Elementor", "Google Analytics"],
     "backgroundColor": "#66717b",
     "textColor": "#FAFAFA",
-    "buttonColor": "6cabdb"
+    "buttonColor": "#293036"
   },
   {
     "id": 10,
