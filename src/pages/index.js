@@ -1,15 +1,15 @@
-import React from "react";
+import React from "react"
 
-import Layout from "../components/Layout/Layout";
-import SEO from "../components/SEO";
-import Header from "../components/Header/Header";
+import Layout from "../components/Layout/Layout"
+import SEO from "../components/seo"
+import Header from "../components/Header/Header"
 
-import AboutMe from "../components/AboutMe/AboutMe";
-import Skills from "../components/Skills/Skills";
+import AboutMe from "../components/AboutMe/AboutMe"
+import Skills from "../components/Skills/Skills"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title='Home' />
+    <SEO title="Home" />
 
     <Header />
 
@@ -17,6 +17,6 @@ const IndexPage = () => (
 
     <Skills />
   </Layout>
-);
+)
 
-export default IndexPage;
+export default IndexPage

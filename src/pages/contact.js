@@ -1,16 +1,16 @@
-import React from "react";
+import React from "react"
 
-import Layout from "../components/Layout/Layout";
-import SEO from "../components/SEO";
-import ContactForm from "../components/ContactForm/ContactForm";
+import Layout from "../components/Layout/Layout"
+import SEO from "../components/seo"
+import ContactForm from "../components/ContactForm/ContactForm"
 
 const contact = () => {
   return (
     <Layout>
-      <SEO title='Contact' />
+      <SEO title="Contact" />
       <ContactForm />
     </Layout>
-  );
-};
+  )
+}
 
-export default contact;
+export default contact
