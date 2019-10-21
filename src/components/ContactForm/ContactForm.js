@@ -7,7 +7,7 @@ const ContactForm = () => {
     <div className={`container ${contactFormStyles.container}`}>
       <form
         name="contact"
-        method="post"
+        method="POST"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
       >
@@ -39,6 +39,11 @@ const ContactForm = () => {
               className="form-control"
               placeholder="Send me a message"
             />
+          </div>
+        </div>
+        <div className="form-row">
+          <div className="form-group col-md-12">
+            <div data-netlify-recaptcha="true"></div>
           </div>
         </div>
         <button type="submit" className="btn btn-primary">
