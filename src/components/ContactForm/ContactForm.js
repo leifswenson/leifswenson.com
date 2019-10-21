@@ -8,12 +8,15 @@ const ContactForm = () => {
       <form
         name="contact"
         method="POST"
+        action="/formSuccess"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
       >
+        <input type="hidden" name="bot-field" />
+        <input type="hidden" name="form-name" value="contact" />
         <div className="form-row">
           <div className="form-group col-md-6">
-            <label>Name</label>
+            <label htmlFor="name">Name</label>
             <input
               name="name"
               type="text"
@@ -22,7 +25,7 @@ const ContactForm = () => {
             />
           </div>
           <div className="form-group col-md-6">
-            <label>Email</label>
+            <label htmlFor="email">Email</label>
             <input
               name="email"
               type="email"
@@ -33,7 +36,7 @@ const ContactForm = () => {
         </div>
         <div className="form-row">
           <div className="form-group col-md-12">
-            <label>Message</label>
+            <label htmlFor="message">Message</label>
             <textarea
               name="message"
               className="form-control"
