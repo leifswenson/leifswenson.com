@@ -1,7 +1,6 @@
 import React from "react"
 
 import headerStyles from "./header.module.scss"
-import headerImage from "../../images/golf.png"
 
 const Header = () => (
   <header className={headerStyles.siteHeader}>
@@ -14,15 +13,6 @@ const Header = () => (
           </div>
         </div>
       </div>
-      {/* <div className='row'>
-        <div className={headerStyles.imageContainer}>
-          <img
-            className={headerStyles.image}
-            src={headerImage}
-            alt='golf hole'
-          />
-        </div>
-      </div> */}
     </div>
   </header>
 )

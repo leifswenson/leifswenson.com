@@ -2,12 +2,13 @@ import React from "react"
 
 import Layout from "../components/Layout/Layout"
 import SEO from "../components/seo"
+import Success from "../components/Success/Success"
 
 const formSuccess = () => (
   <Layout>
     <SEO title="Form Success" />
     <div>
-      <h1>Form submitted successfully!</h1>
+      <Success />
     </div>
   </Layout>
 )

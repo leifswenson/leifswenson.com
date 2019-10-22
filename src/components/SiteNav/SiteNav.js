@@ -25,31 +25,19 @@ const SiteNav = ({ siteTitle }) => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Link href="home">
-              <Link
-                className={navStyles.link}
-                activeClassName={navStyles.activeLink}
-                to="/"
-              >
+              <Link className={navStyles.link} to="/">
                 Home
               </Link>
             </Nav.Link>
 
             <Nav.Link href="work">
-              <Link
-                className={navStyles.link}
-                activeClassName={navStyles.activeLink}
-                to="/work"
-              >
+              <Link className={navStyles.link} to="/work">
                 Work
               </Link>
             </Nav.Link>
 
             <Nav.Link href="contact">
-              <Link
-                className={navStyles.link}
-                activeClassName={navStyles.activeLink}
-                to="/contact"
-              >
+              <Link className={navStyles.link} to="/contact">
                 Contact
               </Link>
             </Nav.Link>

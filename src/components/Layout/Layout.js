@@ -1,13 +1,13 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { useStaticQuery, graphql } from "gatsby";
+import React from "react"
+import PropTypes from "prop-types"
+import { useStaticQuery, graphql } from "gatsby"
 
-import SiteNav from "../SiteNav/SiteNav";
-import Footer from "../Footer/Footer";
+import SiteNav from "../SiteNav/SiteNav"
+import Footer from "../Footer/Footer"
 
-import "bootstrap/dist/css/bootstrap.min.css";
-import "../../styles/main.scss";
-import layoutStyles from "./layout.module.scss";
+import "bootstrap/dist/css/bootstrap.min.css"
+import "../../styles/main.scss"
+import layoutStyles from "./layout.module.scss"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
         }
       }
     }
-  `);
+  `)
 
   return (
     <div className={layoutStyles.siteContainer}>
@@ -28,11 +28,11 @@ const Layout = ({ children }) => {
       </div>
       <Footer />
     </div>
-  );
-};
+  )
+}
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired
-};
+  children: PropTypes.node.isRequired,
+}
 
-export default Layout;
+export default Layout
