@@ -6,11 +6,11 @@
     "tagLine": "Helping schools connect to unused resources",
     "description": "An app that allows schools to share unused or under used resources with schools that need them.",
     "image": "school-source-images.jpg",
-    "link": "https://github.com/leifswenson/school-source",
+    "appLink": "https://schoolsource.herokuapp.com/",
+    "codeLink": "https://github.com/leifswenson/school-source",
     "techUsed": ["React.js", "Mongo.DB", "express.js", "Node.js", "bootstrap"],
     "backgroundColor": "#2da779",
-    "textColor": "#FAFAFA",
-    "buttonColor": "#293036"
+    "textColor": "#FAFAFA"
   },
   {
     "id": 2,
@@ -19,11 +19,11 @@
     "tagLine": "Keep your eye on the athlete",
     "description": "This is a memory game.  Click on each athlete only once.  Click all 12 only once and you win.",
     "image": "tiger_woods.png",
-    "link": "https://leifswenson.github.io/memory-game/",
+    "appLink": "https://leifswenson.github.io/memory-game/",
+    "codeLink": "https://github.com/leifswenson/memory-game",
     "techUsed": ["React.js", "Node.js"],
     "backgroundColor": "#6cabdb",
-    "textColor": "#FAFAFA",
-    "buttonColor": "#293036"
+    "textColor": "#FAFAFA"
   },
   {
     "id": 3,
@@ -32,7 +32,8 @@
     "tagLine": "Save your best code for later.",
     "description": "Code pin is a javascript application whose intent is to allow users to save and share their most useful code snippets.",
     "image": "logo_codePin.png",
-    "link": "https://github.com/leifswenson/codePin",
+    "appLink": "https://codepin.herokuapp.com/",
+    "codeLink": "https://github.com/leifswenson/codePin",
     "techUsed": [
       "express.js",
       "Node.js",
@@ -44,8 +45,7 @@
       "highlight.js"
     ],
     "backgroundColor": "#66717b",
-    "textColor": "#FAFAFA",
-    "buttonColor": "#293036"
+    "textColor": "#FAFAFA"
   },
   {
     "id": 4,
@@ -54,11 +54,11 @@
     "tagLine": "Find your favorite breweries",
     "description": "Can’t remember that sweet brewery you went to last week or last night. Remem-beer is the solution. This app allows user to search and save their favorite breweries.",
     "image": "remembeerLogo.png",
-    "link": "https://github.com/leifswenson/remembeer",
+    "appLink": "https://leifswenson.github.io/remembeer/home.html",
+    "codeLink": "https://github.com/leifswenson/remembeer",
     "techUsed": ["firebase", "google maps API", "bootstrap"],
     "backgroundColor": "#2da779",
-    "textColor": "#FAFAFA",
-    "buttonColor": "#293036"
+    "textColor": "#FAFAFA"
   },
   {
     "id": 5,
@@ -67,11 +67,11 @@
     "tagLine": "Command line Siri clone.",
     "description": "Use Liri to search twitter, Spotify or for movies via the IMDB database.",
     "image": "liriNodeAppImage.png",
-    "link": "https://github.com/leifswenson/liri-node-app",
+    "appLink": "",
+    "codeLink": "https://github.com/leifswenson/liri-node-app",
     "techUsed": ["API", "javascript", "node", "command line"],
     "backgroundColor": "#6cabdb",
-    "textColor": "#FAFAFA",
-    "buttonColor": "#293036"
+    "textColor": "#FAFAFA"
   },
   {
     "id": 6,
@@ -80,11 +80,11 @@
     "tagLine": "A React Redux CRUD app that allows users to live stream content",
     "description": "A React Redux CRUD app that allows users to live stream content",
     "image": "streams.png",
-    "link": "https://github.com/leifswenson/streams",
+    "appLink": "",
+    "codeLink": "https://github.com/leifswenson/streams",
     "techUsed": ["React.js", "Redux", "API", "javascript", "Node.js"],
     "backgroundColor": "#66717b",
-    "textColor": "#FAFAFA",
-    "buttonColor": "#293036"
+    "textColor": "#FAFAFA"
   },
   {
     "id": 7,
@@ -93,11 +93,11 @@
     "tagLine": "Search for your favorite gifs",
     "description": "An app that allows you to search for your favorite gifs.",
     "image": "gif-viewer.png",
-    "link": "https://github.com/leifswenson/giphy-viewer",
+    "appLink": "https://leifswenson.github.io/giphy-viewer/index.html",
+    "codeLink": "https://github.com/leifswenson/giphy-viewer",
     "techUsed": ["bootstrap", "javascript", "GIPHY API"],
     "backgroundColor": "#2da779",
-    "textColor": "#FAFAFA",
-    "buttonColor": "#293036"
+    "textColor": "#FAFAFA"
   },
   {
     "id": 8,
@@ -106,11 +106,11 @@
     "tagLine": "Search for your favorite movies using the omdb dadabase.",
     "description": "An app that allows you to search for movies using the OMDB database.",
     "image": "caddyshack.jpg",
-    "link": "https://react-movie-search-ls.netlify.com/",
+    "appLink": "https://react-movie-search-ls.netlify.com/",
+    "codeLink": "",
     "techUsed": ["react", "API", "bootstrap", "javascript", "node", "netlify"],
     "backgroundColor": "#6cabdb",
-    "textColor": "#FAFAFA",
-    "buttonColor": "#293036"
+    "textColor": "#FAFAFA"
   },
   {
     "id": 9,
@@ -119,11 +119,11 @@
     "tagLine": "Family owned ice cream shop.",
     "description": "I had the good fortune to build a website for a family owned ice cream shop in my hometown.  The wanted something clean, easy to maintain and gave them the opportunity to make edits on their own. We settled on the use of WordPress and the page builder Elementor.",
     "image": "whatsTheScoopLogo.jpg",
-    "link": "https://www.whatsthescoop.biz/",
+    "appLink": "https://www.whatsthescoop.biz/",
+    "codeLink": "",
     "techUsed": ["WordPress", "Elementor", "Google Analytics"],
     "backgroundColor": "#66717b",
-    "textColor": "#FAFAFA",
-    "buttonColor": "#293036"
+    "textColor": "#FAFAFA"
   },
   {
     "id": 10,
@@ -132,10 +132,10 @@
     "tagLine": "Local therapy group specializing in child, family and couples therapy.",
     "description": "Psychotherapeutic Resources contacted me to help freshen up their website.  Before the redesign it wasn't mobile responsive and was difficult to the client to make edits on their own.  We finally settled on WordPress paired with Elementor.  We kept the design simple and the color palette soft and inviting.",
     "image": "PsychotherapeuticResourcesLogo.png",
-    "link": "https://www.yourcaringresource.com/",
+    "appLink": "https://www.yourcaringresource.com/",
+    "codeLink": "",
     "techUsed": ["WordPress", "Elementor", "Google Analytics"],
     "backgroundColor": "#2da779",
-    "textColor": "#FAFAFA",
-    "buttonColor": "#293036"
+    "textColor": "#FAFAFA"
   }
 ]

@@ -23,9 +23,12 @@ class Work extends Component {
             assumenda.
           </p>
         </section> */}
-        {this.state.work.map(item => {
-          return <Project key={item.id} workData={item} />
-        })}
+
+        <div>
+          {this.state.work.map(item => {
+            return <Project key={item.id} workData={item} />
+          })}
+        </div>
       </Layout>
     )
   }

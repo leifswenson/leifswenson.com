@@ -27,13 +27,22 @@
   padding: 30px 0;
 }
 
-.buttonArea {
-  width: 50%;
+.buttonList {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
   margin: 0 auto;
 }
 
+.buttonItem {
+  text-decoration: none;
+
+  padding: 10px;
+}
+
 .link {
-  text-align: center;
+  color: #fafafa;
 }
 
 .button {
