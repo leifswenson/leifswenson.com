@@ -5,6 +5,7 @@ import contactFormStyles from "./contactForm.module.scss"
 const ContactForm = () => {
   return (
     <div className={`container ${contactFormStyles.container}`}>
+      <h2>Contact me</h2>
       <form
         name="contact"
         method="POST"

@@ -2,16 +2,31 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.link {
-  text-decoration: none;
-  color: #6cabdb;
-}
-
-.link:hover {
-  color: #293036;
+.title {
+  color: #000000;
+  font-size: 2rem;
   text-decoration: none;
 }
 
-.active-link {
-  color: #293036;
+.navList {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+.navItem {
+  color: #999999;
+  font-size: 0.9rem;
+  margin-right: 1.3rem;
+  text-decoration: none;
+}
+
+.navItem:hover,
+.title:hover {
+  color: #2da779;
+  text-decoration: none;
+}
+
+.activeNavItem {
+  color: #2da779;
 }
