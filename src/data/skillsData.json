@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "HTML5", "icon": "#", "link": "#" },
+  { "id": 2, "name": "CSS3", "icon": "#", "link": "#" },
+  { "id": 3, "name": "JavaScript", "icon": "#", "link": "#" },
+  { "id": 4, "name": "React.js", "icon": "#", "link": "#" },
+  { "id": 5, "name": "Gatsby.js", "icon": "#", "link": "#" }
+]

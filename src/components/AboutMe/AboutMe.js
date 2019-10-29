@@ -1,25 +1,25 @@
-import React from "react";
+import React from "react"
 
-import aboutMeStyles from "./aboutMe.module.scss";
+import aboutMeStyles from "./aboutMe.module.scss"
 
-import LeifPhoto from "../../images/leif-swenson.jpg";
+import LeifPhoto from "../../images/leif-swenson.jpg"
 
 const AboutMe = () => {
   return (
     <section>
       <div className={aboutMeStyles.container}>
-        <h2 className={aboutMeStyles.heading}>About Me</h2>
-        <div className='row'>
+        <h2 className={aboutMeStyles.heading}>Thats Me</h2>
+        <div className="row">
           <div className={`${aboutMeStyles.imageContainer} col-lg-12`}>
             <img
               className={aboutMeStyles.image}
               src={LeifPhoto}
-              alt='Leif Swenson'
+              alt="Leif Swenson"
             />
           </div>
         </div>
-        <div className='row'>
-          <div className='col-lg-12'>
+        <div className="row">
+          <div className="col-lg-12">
             <p className={aboutMeStyles.info}>
               I am a software developer based in Minnesota.
             </p>
@@ -31,7 +31,7 @@ const AboutMe = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default AboutMe;
+export default AboutMe

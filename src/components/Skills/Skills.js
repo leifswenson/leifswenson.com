@@ -1,5 +1,5 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faHtml5,
   faCss3Alt,
@@ -8,70 +8,78 @@ import {
   faNode,
   faBootstrap,
   faSass,
-  faWordpress
-} from "@fortawesome/free-brands-svg-icons";
+  faWordpress,
+  faGit,
+} from "@fortawesome/free-brands-svg-icons"
 
-import { faDatabase, faServer } from "@fortawesome/free-solid-svg-icons";
+import { faDatabase, faServer } from "@fortawesome/free-solid-svg-icons"
 
-import skillsStyles from "./skills.module.scss";
+import skillsStyles from "./skills.module.scss"
 
 const Skills = () => {
   return (
     <section>
-      <div className='container'>
+      <div className="container">
         <h2 className={skillsStyles.heading}>What can I do?</h2>
-        <div className='row'>
+        <div className="row">
           <div className={`col-lg-12 ${skillsStyles.box}`}>
             <h4 className={skillsStyles.title}>Skills</h4>
             <ul className={skillsStyles.list}>
               <li className={skillsStyles.item}>
-                <FontAwesomeIcon icon={faHtml5} size='3x' />
+                <FontAwesomeIcon icon={faHtml5} size="3x" />
                 <p>HTML5</p>
               </li>
               <li className={skillsStyles.item}>
-                <FontAwesomeIcon icon={faCss3Alt} size='3x' />
+                <FontAwesomeIcon icon={faCss3Alt} size="3x" />
                 <p>CSS3</p>
               </li>
               <li className={skillsStyles.item}>
-                <FontAwesomeIcon icon={faJsSquare} size='3x' />
+                <FontAwesomeIcon icon={faJsSquare} size="3x" />
                 <p>JavaScript</p>
               </li>
               <li className={skillsStyles.item}>
-                <FontAwesomeIcon icon={faReact} size='3x' />
+                <FontAwesomeIcon icon={faGit} size="3x" />
+                <p>git</p>
+              </li>
+              <li className={skillsStyles.item}>
+                <FontAwesomeIcon icon={faReact} size="3x" />
                 <p>React.js</p>
               </li>
               <li className={skillsStyles.item}>
-                <FontAwesomeIcon icon={faNode} size='3x' />
+                <FontAwesomeIcon icon={faNode} size="3x" />
                 <p>Node.js</p>
               </li>
               <li className={skillsStyles.item}>
-                <FontAwesomeIcon icon={faServer} size='3x' />
+                <FontAwesomeIcon icon={faServer} size="3x" />
                 <p>Express.js</p>
               </li>
               <li className={skillsStyles.item}>
-                <FontAwesomeIcon icon={faDatabase} size='3x' />
+                <FontAwesomeIcon icon={faDatabase} size="3x" />
                 <p>MongoDB</p>
               </li>
               <li className={skillsStyles.item}>
-                <FontAwesomeIcon icon={faDatabase} size='3x' />
+                <FontAwesomeIcon icon={faDatabase} size="3x" />
                 <p>SQL</p>
               </li>
               <li className={skillsStyles.item}>
-                <FontAwesomeIcon icon={faWordpress} size='3x' />
+                <FontAwesomeIcon icon={faWordpress} size="3x" />
                 <p>WordPress</p>
               </li>
               <li className={skillsStyles.item}>
-                <FontAwesomeIcon icon={faSass} size='3x' />
+                <FontAwesomeIcon icon={faSass} size="3x" />
                 <p>SCSS</p>
               </li>
               <li className={skillsStyles.item}>
-                <FontAwesomeIcon icon={faBootstrap} size='3x' />
+                <FontAwesomeIcon icon={faBootstrap} size="3x" />
                 <p>Bootstrap</p>
+              </li>
+              <li className={skillsStyles.item}>
+                <p>Gatsby.js</p>
               </li>
             </ul>
           </div>
         </div>
-        <div className='row'>
+        <div className="row">
           <div className={`col-lg-12 ${skillsStyles.box}`}>
             <h4 className={skillsStyles.title}>Tools</h4>
             <ul className={skillsStyles.list}>
@@ -87,7 +95,7 @@ const Skills = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Skills;
+export default Skills
