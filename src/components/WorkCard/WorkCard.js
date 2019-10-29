@@ -11,7 +11,9 @@ const WorkCard = props => {
   return (
     <Card className={` text-center ${workCardStyles.container}`}>
       <Card.Body>
-        <Card.Title>{props.workData.title}</Card.Title>
+        <Card.Title className={workCardStyles.title}>
+          {props.workData.title}
+        </Card.Title>
         <Card.Subtitle className="mb-2 text-muted">
           {props.workData.category}
         </Card.Subtitle>

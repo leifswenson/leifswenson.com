@@ -1,18 +1,25 @@
 .container {
   width: 400px;
-  margin: 5px;
+  margin: 10px;
   padding: 20px 10px;
   flex: 1 1 400px;
   border: none;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(82, 82, 82, 0.2),
+    0 6px 20px 0 rgba(233, 232, 232, 0.19);
+}
+
+.title {
+  color: #2da779;
+  font-size: 1.7rem;
+  font-weight: 600;
 }
 
 .link {
-  color: #999999;
+  color: #2da779;
 }
 
 .link:hover {
-  color: #2da779;
+  color: #66717b;
 }
 
 // Old styles before I used the card from react-bootstrap

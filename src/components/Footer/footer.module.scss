@@ -14,13 +14,13 @@
 }
 
 .social {
-  width: 50%;
+  width: 40%;
   margin: 0 auto;
 }
 
 .socialList {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   list-style-type: none;
 }
 
@@ -34,6 +34,6 @@
 }
 
 .socialLink:hover {
-  color: #fafafa;
+  color: #2da779;
   text-decoration: none;
 }

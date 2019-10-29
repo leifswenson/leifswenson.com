@@ -29,61 +29,51 @@ const SiteNav = ({ siteTitle }) => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Item>
-              <Nav.Link eventKey="/">
-                <Link
-                  className={navStyles.navItem}
-                  activeClassName={navStyles.activeNavItem}
-                  to="/"
-                >
-                  Home
-                </Link>
-              </Nav.Link>
+              <Link
+                className={navStyles.navItem}
+                activeClassName={navStyles.activeNavItem}
+                to="/"
+              >
+                Home
+              </Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="work">
-                <Link
-                  className={navStyles.navItem}
-                  activeClassName={navStyles.activeNavItem}
-                  to="/work"
-                >
-                  Work
-                </Link>
-              </Nav.Link>
+              <Link
+                className={navStyles.navItem}
+                activeClassName={navStyles.activeNavItem}
+                to="/work"
+              >
+                Work
+              </Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="contact">
-                <Link
-                  className={navStyles.navItem}
-                  activeClassName={navStyles.activeNavItem}
-                  to="/contact"
-                >
-                  Contact
-                </Link>
-              </Nav.Link>
+              <Link
+                className={navStyles.navItem}
+                activeClassName={navStyles.activeNavItem}
+                to="/contact"
+              >
+                Contact
+              </Link>
             </Nav.Item>
 
             <Nav>
               <Nav.Item>
-                <Nav.Link href="linkedin">
-                  <a
-                    className={navStyles.navItem}
-                    href="https://github.com/leifswenson"
-                    target="blank"
-                  >
-                    <FontAwesomeIcon icon={faGithubSquare} size="2x" />
-                  </a>
-                </Nav.Link>
+                <a
+                  className={navStyles.navItem}
+                  href="https://github.com/leifswenson"
+                  target="blank"
+                >
+                  <FontAwesomeIcon icon={faGithubSquare} size="2x" />
+                </a>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href="github">
-                  <a
-                    className={navStyles.navItem}
-                    href="https://www.linkedin.com/in/leif-swenson/"
-                    target="blank"
-                  >
-                    <FontAwesomeIcon icon={faLinkedin} size="2x" />
-                  </a>
-                </Nav.Link>
+                <a
+                  className={navStyles.navItem}
+                  href="https://www.linkedin.com/in/leif-swenson/"
+                  target="blank"
+                >
+                  <FontAwesomeIcon icon={faLinkedin} size="2x" />
+                </a>
               </Nav.Item>
             </Nav>
           </Nav>
