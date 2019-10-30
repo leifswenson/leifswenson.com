@@ -11,12 +11,27 @@ import {
   faWordpress,
   faGit,
 } from "@fortawesome/free-brands-svg-icons"
-
 import { faDatabase, faServer } from "@fortawesome/free-solid-svg-icons"
 
 import skillsStyles from "./skills.module.scss"
 
+import { useStaticQuery, graphql } from "gatsby"
+
 const Skills = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      allSkillsDataJson {
+        edges {
+          node {
+            id
+            name
+          }
+        }
+      }
+    }
+  `)
+  console.log(data.allSkillsDataJson.edges)
+
   return (
     <section>
       <div className="container">

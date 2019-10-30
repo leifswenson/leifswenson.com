@@ -1,7 +1,14 @@
 [
   { "id": 1, "name": "HTML5", "icon": "#", "link": "#" },
   { "id": 2, "name": "CSS3", "icon": "#", "link": "#" },
-  { "id": 3, "name": "JavaScript", "icon": "#", "link": "#" },
-  { "id": 4, "name": "React.js", "icon": "#", "link": "#" },
-  { "id": 5, "name": "Gatsby.js", "icon": "#", "link": "#" }
+  { "id": 3, "name": "git", "icon": "#", "link": "#" },
+  { "id": 4, "name": "JavaScript", "icon": "#", "link": "#" },
+  { "id": 5, "name": "React.js", "icon": "#", "link": "#" },
+  { "id": 6, "name": "Node.js", "icon": "#", "link": "#" },
+  { "id": 7, "name": "Express.js", "icon": "#", "link": "#" },
+  { "id": 8, "name": "MondoDB", "icon": "#", "link": "#" },
+  { "id": 9, "name": "SQL", "icon": "#", "link": "#" },
+  { "id": 10, "name": "WordPress", "icon": "#", "link": "#" },
+  { "id": 11, "name": "SCSS", "icon": "#", "link": "#" },
+  { "id": 12, "name": "Bootstrap", "icon": "#", "link": "#" }
 ]
