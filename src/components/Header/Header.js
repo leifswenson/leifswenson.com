@@ -9,7 +9,7 @@ const Header = () => (
         <div className="col-lg-12">
           <div className={headerStyles.headerInfo}>
             <h1 className={headerStyles.name}>I'm Leif Swenson</h1>
-            <p className={headerStyles.job}>a software developer</p>
+            <p className={headerStyles.job}>a full stack web developer</p>
           </div>
         </div>
       </div>

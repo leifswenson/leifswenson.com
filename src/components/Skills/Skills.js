@@ -17,6 +17,8 @@ import skillsStyles from "./skills.module.scss"
 
 import { useStaticQuery, graphql } from "gatsby"
 
+import GatsbyImage from "../../images/icons/gatsby.svg"
+
 const Skills = () => {
   const data = useStaticQuery(graphql`
     query {
@@ -34,7 +36,8 @@ const Skills = () => {
 
   return (
     <section>
-      <div className="container">
+      <div className={skillsStyles.container}>
+        <hr />
         <h2 className={skillsStyles.heading}>What can I do?</h2>
         <div className="row">
           <div className={`col-lg-12 ${skillsStyles.box}`}>
@@ -89,6 +92,11 @@ const Skills = () => {
                 <p>Bootstrap</p>
               </li>
               <li className={skillsStyles.item}>
+                <img
+                  style={{ height: 50, marginBottom: 0 }}
+                  src={GatsbyImage}
+                  alt="boot image"
+                />
                 <p>Gatsby.js</p>
               </li>
             </ul>

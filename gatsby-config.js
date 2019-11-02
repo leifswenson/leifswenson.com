@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Leif Swenson`,
     description: `The portfolio site for Leif Swenson`,
-    author: `Leif Swenson <leifswenson@gmail.com>`,
+    author: `Leif Swenson`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -27,13 +27,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Leif Swenson`,
+        short_name: `portfolio`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/leif-swenson.jpg`, // This path is relative to the root of the site.
       },
     },
     {
@@ -42,8 +42,6 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }
