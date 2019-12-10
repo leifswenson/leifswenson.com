@@ -20,22 +20,32 @@ import { useStaticQuery, graphql } from "gatsby"
 import GatsbyImage from "../../images/icons/gatsby.svg"
 
 const Skills = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      allSkillsDataJson {
-        edges {
-          node {
-            id
-            name
-          }
-        }
-      }
-    }
-  `)
-  console.log(data.allSkillsDataJson.edges)
+  // const data = useStaticQuery(graphql`
+  //   query {
+  //     allSkillsDataJson {
+  //       edges {
+  //         node {
+  //           id
+  //           name
+  //         }
+  //       }
+  //     }
+  //   }
+  // `)
+  // console.log(data.allSkillsDataJson.edges)
 
   return (
     <section>
+      {/* {data.allSkillsDataJson.edges.map(item => {
+        return (
+          <ul>
+            <li>
+              <img src={item.node.icon} alt={item.node.name} />
+              <p>{item.node.name}</p>
+            </li>
+          </ul>
+        )
+      })} */}
       <div className={skillsStyles.container}>
         <hr />
         <h2 className={skillsStyles.heading}>What can I do?</h2>

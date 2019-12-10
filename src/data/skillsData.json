@@ -1,14 +1,16 @@
 [
-  { "id": 1, "name": "HTML5", "icon": "#", "link": "#" },
-  { "id": 2, "name": "CSS3", "icon": "#", "link": "#" },
-  { "id": 3, "name": "git", "icon": "#", "link": "#" },
-  { "id": 4, "name": "JavaScript", "icon": "#", "link": "#" },
-  { "id": 5, "name": "React.js", "icon": "#", "link": "#" },
-  { "id": 6, "name": "Node.js", "icon": "#", "link": "#" },
-  { "id": 7, "name": "Express.js", "icon": "#", "link": "#" },
-  { "id": 8, "name": "MondoDB", "icon": "#", "link": "#" },
-  { "id": 9, "name": "SQL", "icon": "#", "link": "#" },
-  { "id": 10, "name": "WordPress", "icon": "#", "link": "#" },
-  { "id": 11, "name": "SCSS", "icon": "#", "link": "#" },
-  { "id": 12, "name": "Bootstrap", "icon": "#", "link": "#" }
+  { "id": 1, "name": "HTML5", "icon": "/icons/html5.svg", "url": "#" },
+  { "id": 2, "name": "CSS3", "icon": "css3.svg", "url": "#" },
+  { "id": 3, "name": "git", "icon": "git.svg", "url": "#" },
+  { "id": 4, "name": "JavaScript", "icon": "javascript.svg", "url": "#" },
+  { "id": 5, "name": "React.js", "icon": "react.svg", "url": "#" },
+  { "id": 6, "name": "Node.js", "icon": "node-dot-js.svg", "url": "#" },
+  { "id": 7, "name": "Express.js", "icon": "node-dot-js.svg", "url": "#" },
+  { "id": 8, "name": "MondoDB", "icon": "mongodb.svg", "url": "#" },
+  { "id": 9, "name": "SQL", "icon": "mysql.svg", "url": "#" },
+  { "id": 10, "name": "WordPress", "icon": "wordpress.svg", "url": "#" },
+  { "id": 11, "name": "SCSS", "icon": "sass.svg", "url": "#" },
+  { "id": 12, "name": "Bootstrap", "icon": "bootstrap.svg", "url": "#" },
+  { "id": 13, "name": "Gatsby.js", "icon": "gatsby.svg", "url": "#" },
+  { "id": 14, "name": "GraphQL", "icon": "graphql.svg", "url": "#" }
 ]
